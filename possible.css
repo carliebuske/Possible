@@ -7,7 +7,7 @@
 
 /* 3 FONT SIZES */
 
-.l {font-size: 50px; line-height: 1.3em;}
+.l {font-size: 40px; line-height: 1.3em;}
 .m {font-size: 24px; line-height: 1.3em; font-family: sans-serif;}
 .s {font-size: 15px; line-height: 1.3em; font-family: sans-serif;}
 
@@ -104,8 +104,7 @@ body {
 	font-weight: bold;
 	position: absolute;
 	z-index: 1;
-	top: 50%;
-	transform: translateY(-50%);
+	bottom: 25px;
 	margin: 0;
 	-webkit-transition: opacity 1s ease;
 	-moz-transition: opacity 1s ease;
@@ -164,10 +163,22 @@ body {
 
 .foot {
 	padding: 50px;
+	height:60vh;
 }
 
 
+.buffwrapper {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
 
+
+.buff-image-gallery { 
+	width: 900px; 
+	padding:0px;
+
+}
 
 
 
